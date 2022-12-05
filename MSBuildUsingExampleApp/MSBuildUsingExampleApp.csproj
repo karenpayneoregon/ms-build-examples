@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net7.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>disable</Nullable>
+		<ApplicationIcon>assets\csharp.ico</ApplicationIcon>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Remove="readme.md" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Content Include="assets\csharp.ico" />
+	  <Content Include="readme.md" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="ConsoleHelperLibrary" Version="1.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Spectre.Console" Version="0.44.0" />
+	</ItemGroup>
+
+	<!-- specifies the class project which the next two groups define aliases for -->
+	<ItemGroup>
+	  <ProjectReference Include="..\SqlServerLibrary\SqlServerLibrary.csproj" />
+	</ItemGroup>
+
+	<!-- alias for the class DataHelpers SLD is the combination for each uppercased letter in the path -->
+	<ItemGroup>
+		<Using Include="SqlServerLibrary.DataHelpers" Alias="SLD" />
+	</ItemGroup>
+
+	<!-- alias for the models under the Models folder SLM is the combination for each uppercased letter in the path-->
+	<ItemGroup>
+		<Using Include="SqlServerLibrary.Models" Alias="SLM" />
+	</ItemGroup>
+</Project>

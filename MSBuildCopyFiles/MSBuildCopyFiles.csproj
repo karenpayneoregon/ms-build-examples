@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net7.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Remove="readme.md" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Content Include="readme.md" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Folder Include="Templates\Folder1\" />
+		<Folder Include="Templates\Folder2\" />
+	</ItemGroup>
+
+
+
+	<Target Name="CopyFiles" AfterTargets="Build">
+		<ItemGroup>
+			<!-- Because this ItemGroup is inside the target, this will enumerate
+                 all files just before calling Copy. If the ItemGroup were outside
+                 the target , it would enumerate the files during evaluation, before
+                 the build starts, which may miss files created during the build. -->
+			<MySourceFiles Include="$(ProjectDir)\Templates\**\*.*" />
+		</ItemGroup>
+
+		<!--<Copy SourceFiles="@(MySourceFiles)" DestinationFiles="c:\OED\MsDemo\%(RecursiveDir)%(Filename)%(Extension)"/>-->
+		<Copy SourceFiles="@(MySourceFiles)" DestinationFolder="c:\Work\MsDemo\%(RecursiveDir)" />
+	</Target>
+
+</Project>
