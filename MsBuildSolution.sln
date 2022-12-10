@@ -11,16 +11,18 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SqlServerLibrary", "SqlServ
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSBuildUsingExampleApp", "MSBuildUsingExampleApp\MSBuildUsingExampleApp.csproj", "{456E42F8-59D6-4D8D-92AF-609FE09A6BF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlLiteLibrary", "SqlLiteLibrary\SqlLiteLibrary.csproj", "{81CD3663-7180-4EFE-8C92-3357DB325068}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SqlLiteLibrary", "SqlLiteLibrary\SqlLiteLibrary.csproj", "{81CD3663-7180-4EFE-8C92-3357DB325068}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C3C933FB-48D8-422C-8B0C-766B473A70ED}"
 	ProjectSection(SolutionItems) = preProject
 		readme.md = readme.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelperLibrary", "HelperLibrary\HelperLibrary.csproj", "{F1EA21A0-F520-4794-A17D-F160C339B4F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelperLibrary", "HelperLibrary\HelperLibrary.csproj", "{F1EA21A0-F520-4794-A17D-F160C339B4F3}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSBuildCopyFiles", "MSBuildCopyFiles\MSBuildCopyFiles.csproj", "{B664F627-0FDF-4ACD-AB09-4E12C77553BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MsBuildVersioningApp", "MsBuildVersioningApp\MsBuildVersioningApp.csproj", "{BF6AD305-D90B-426F-A3BE-400897C6913D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -52,6 +54,10 @@ Global
 		{B664F627-0FDF-4ACD-AB09-4E12C77553BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B664F627-0FDF-4ACD-AB09-4E12C77553BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B664F627-0FDF-4ACD-AB09-4E12C77553BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF6AD305-D90B-426F-A3BE-400897C6913D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF6AD305-D90B-426F-A3BE-400897C6913D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF6AD305-D90B-426F-A3BE-400897C6913D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF6AD305-D90B-426F-A3BE-400897C6913D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
