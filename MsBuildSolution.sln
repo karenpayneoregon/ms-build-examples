@@ -22,7 +22,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelperLibrary", "HelperLibr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSBuildCopyFiles", "MSBuildCopyFiles\MSBuildCopyFiles.csproj", "{B664F627-0FDF-4ACD-AB09-4E12C77553BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MsBuildVersioningApp", "MsBuildVersioningApp\MsBuildVersioningApp.csproj", "{BF6AD305-D90B-426F-A3BE-400897C6913D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MsBuildVersioningApp", "MsBuildVersioningApp\MsBuildVersioningApp.csproj", "{BF6AD305-D90B-426F-A3BE-400897C6913D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
