@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
 		<OutputType>Exe</OutputType>
@@ -7,7 +7,7 @@
 		<Nullable>enable</Nullable>
 	</PropertyGroup>
 	<PropertyGroup>
-		<MyUrl>https://raw.githubusercontent.com/Microsoft/msbuild/master/LICENSE</MyUrl>
+		<MyUrl>https://raw.githubusercontent.com/karenpayneoregon/ms-build-examples/master/downloadSample.md</MyUrl>
 	</PropertyGroup>
 
 	<Target Name="DownloadContentFiles" BeforeTargets="Build">
