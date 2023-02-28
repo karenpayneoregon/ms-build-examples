@@ -3,7 +3,7 @@
 namespace SqlServerLibrary;
 
 /// <summary>
-/// Code assumes the developer has proper permissions and thee databases are
+/// Code assumes the developer has proper permissions and the databases are
 /// always available but we all know something can go wrong so please add exception handling.
 /// </summary>
 public class DataHelpers

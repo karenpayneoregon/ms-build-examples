@@ -4,12 +4,13 @@ Provides examples for MS-Build task that are not what most developers are aware 
 
 | Project        |   Description    | 
 |:------------- |:-------------|
-| MsBuildWorkingDirApp | Shows how to set a project working folder |  
-| SqlLiteLibrary | Companion project for MsBuildWorkingDirApp |  
-| MSBuildUsingExampleApp | Shows how to use using `directive` aliases |  
-| SqlServerLibrary | Companion project for MSBuildUsingExampleApp |  
 | MSBuildCopyFiles | Example for copying folders and files to a working folder |  
+| MsBuildWorkingDirApp | Shows how to set a project working folder |  
+| MsBuildHidePathInExceptions | Shows how to remove paths from runtime exception messages |
+| MSBuildUsingExampleApp | Shows how to use using `directive` aliases |  
 | MsBuildVersioningApp | Versioning .NET Core project using `Directory.Build.props` |  
+| SqlServerLibrary | Companion project for MSBuildUsingExampleApp |  
+| SqlLiteLibrary | Companion project for MsBuildWorkingDirApp |  
 
 # References
 
