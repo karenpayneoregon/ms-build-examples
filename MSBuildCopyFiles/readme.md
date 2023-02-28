@@ -32,6 +32,6 @@ Next, setup instructions to copy the files after a successful build
 # References
 
 - Microsoft docs 
-- [Copy task](https://learn.microsoft.com/en-us/visualstudio/msbuild/copy-task?view=vs-2022)
-- [File globbing in .NET](https://learn.microsoft.com/en-us/dotnet/core/extensions/file-globbing)
+    - [Copy task](https://learn.microsoft.com/en-us/visualstudio/msbuild/copy-task?view=vs-2022)
+    - [File globbing in .NET](https://learn.microsoft.com/en-us/dotnet/core/extensions/file-globbing)
 
