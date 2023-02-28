@@ -29,6 +29,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MsBuildHidePathInExceptions
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MsBuildDownloadFileApp", "MsBuildDownloadFileApp\MsBuildDownloadFileApp.csproj", "{472E4A56-042D-4A64-A687-12E362EEAF47}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MsBuildCompressSolution", "MsBuildCompressSolution\MsBuildCompressSolution.csproj", "{EBDB5D0C-B1D8-4E55-B669-85A8570DE3F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,6 +73,10 @@ Global
 		{472E4A56-042D-4A64-A687-12E362EEAF47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{472E4A56-042D-4A64-A687-12E362EEAF47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{472E4A56-042D-4A64-A687-12E362EEAF47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBDB5D0C-B1D8-4E55-B669-85A8570DE3F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBDB5D0C-B1D8-4E55-B669-85A8570DE3F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBDB5D0C-B1D8-4E55-B669-85A8570DE3F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBDB5D0C-B1D8-4E55-B669-85A8570DE3F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
