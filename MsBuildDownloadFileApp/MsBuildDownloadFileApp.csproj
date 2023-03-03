@@ -16,12 +16,15 @@
 		</PropertyGroup>
 
 		<Target Name="DownloadContentFiles" BeforeTargets="Build">
-			<DownloadFile SourceUrl="$(MyUrl1)" DestinationFolder="$(MSBuildProjectDirectory)">
+
+			<DownloadFile SourceUrl="$(MyUrl1)" DestinationFolder="$(MSBuildProjectDirectory)\files">
 				<Output TaskParameter="DownloadedFile" ItemName="Content" />
 			</DownloadFile>
+
 			<DownloadFile SourceUrl="$(MyUrl2)" DestinationFolder="$(MSBuildProjectDirectory)">
 				<Output TaskParameter="DownloadedFile" ItemName="Content" />
 			</DownloadFile>
+
 		</Target>
 
 		<ItemGroup>
