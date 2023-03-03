@@ -15,6 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SqlLiteLibrary", "SqlLiteLi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C3C933FB-48D8-422C-8B0C-766B473A70ED}"
 	ProjectSection(SolutionItems) = preProject
+		about.md = about.md
 		downloadSample.md = downloadSample.md
 		readme.md = readme.md
 	EndProjectSection
@@ -27,7 +28,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MsBuildVersioningApp", "MsB
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MsBuildHidePathInExceptions", "MsBuildHidePathInExceptions\MsBuildHidePathInExceptions.csproj", "{C5BB18E1-5B2B-4A87-9958-C688AEEEFADB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MsBuildDownloadFileApp", "MsBuildDownloadFileApp\MsBuildDownloadFileApp.csproj", "{472E4A56-042D-4A64-A687-12E362EEAF47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MsBuildDownloadFileApp", "MsBuildDownloadFileApp\MsBuildDownloadFileApp.csproj", "{472E4A56-042D-4A64-A687-12E362EEAF47}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MsBuildCompressSolution", "MsBuildCompressSolution\MsBuildCompressSolution.csproj", "{EBDB5D0C-B1D8-4E55-B669-85A8570DE3F6}"
 EndProject
