@@ -12,10 +12,14 @@
 		
 		<PropertyGroup>
 			<MyUrl1>https://raw.githubusercontent.com/karenpayneoregon/ms-build-examples/master/downloadSample.md</MyUrl1>
+			<MyUrl2>https://raw.githubusercontent.com/karenpayneoregon/ms-build-examples/master/about.md</MyUrl2>
 		</PropertyGroup>
 
 		<Target Name="DownloadContentFiles" BeforeTargets="Build">
 			<DownloadFile SourceUrl="$(MyUrl1)" DestinationFolder="$(MSBuildProjectDirectory)">
+				<Output TaskParameter="DownloadedFile" ItemName="Content" />
+			</DownloadFile>
+			<DownloadFile SourceUrl="$(MyUrl2)" DestinationFolder="$(MSBuildProjectDirectory)">
 				<Output TaskParameter="DownloadedFile" ItemName="Content" />
 			</DownloadFile>
 		</Target>
