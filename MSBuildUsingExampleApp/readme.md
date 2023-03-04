@@ -1,5 +1,7 @@
 ﻿# Define aliases for class references 
 
+See also [Readme1](readme1.md)
+
 This project shows how to create [using directives](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/using-directive) using MS-Build [Item](https://learn.microsoft.com/en-us/dotnet/core/project-sdk/msbuild-props#using).
 
 
