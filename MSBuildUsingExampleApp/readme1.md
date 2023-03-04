@@ -152,7 +152,9 @@ Or we can use the following in a project file to eliminate the using directive f
 
 # Source code
 
-Clone the following GitHub repository and work with the project SqlServerLibrary.
+Clone the following GitHub [repository](https://github.com/karenpayneoregon/ms-build-examples) and work with the project [MSBuildUsingExampleApp](https://github.com/karenpayneoregon/ms-build-examples/tree/master/MSBuildUsingExampleApp).
+
+Coded with Microsoft Visual Studio 2022, .NET Core 7.
 
 
 
