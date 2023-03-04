@@ -1,4 +1,5 @@
 ﻿<Project>
+	
 	<PropertyGroup>
 		<Version>1.0</Version>
 		<FileVersion>1.0.0.0</FileVersion>
@@ -7,4 +8,10 @@
 		<Copyright>Created by Karen Payne MVP use freely</Copyright>
 		<NeutralLanguage>en</NeutralLanguage>
 	</PropertyGroup>
+
+	<ItemGroup>
+		<!-- alias for the models under the Models folder SLM is the combination for each uppercased letter in the path-->
+		<Using Include="SqlServerLibrary.Models" Alias="SLM" />
+	</ItemGroup>
+
 </Project>
