@@ -15,7 +15,7 @@ namespace MSBuildUsingExampleApp
         static void Main(string[] args)
         {
             /*
-             * Here we use an using directive setup in the project file rather than
+             * Here we use a using directive setup in the project file rather than
              * using a directive in this file as per the one commented out above
              */
             WriteLine(SLD.ExpressDatabaseExists("NorthWind2022") ? "Exists" : "Not found");
