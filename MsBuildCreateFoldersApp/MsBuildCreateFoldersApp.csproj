@@ -6,13 +6,6 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 	</PropertyGroup>
 
-	<!-- 
-		How to make a folder with a subfolder with the date from basic to clean.
-	-->
-
-	<Target Name="EntityFrameworkLogDir" AfterTargets="Build">
-		<MakeDir Directories="$(OutDir)LogFiles\$([System.DateTime]::Now.Year)-$([System.DateTime]::Now.Month)-$([System.DateTime]::Now.Day)" />
-	</Target>
 
 	<PropertyGroup>
 		<CurrentYear>$([System.DateTime]::Now.Year)</CurrentYear>
