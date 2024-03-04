@@ -3,7 +3,7 @@
 
 		<PropertyGroup>
 			<OutputType>Exe</OutputType>
-			<TargetFramework>net7.0</TargetFramework>
+			<TargetFramework>net8.0</TargetFramework>
 			<ImplicitUsings>enable</ImplicitUsings>
 			<Nullable>enable</Nullable>
 		</PropertyGroup>
@@ -19,6 +19,7 @@
 
 		<Target Name="MakeWorkFolder" BeforeTargets="Build">
 			<MakeDir Directories="$(WorkFolder)" />
+			<MakeDir Directories="$(WorkFolder)\LogFiles" />
 		</Target>
 
 		<PropertyGroup>
@@ -40,6 +41,12 @@
 		<ItemGroup>
 		  <ProjectReference Include="..\HelperLibrary\HelperLibrary.csproj" />
 		  <ProjectReference Include="..\SqlLiteLibrary\SqlLiteLibrary.csproj" />
+		</ItemGroup>
+
+		<ItemGroup>
+			<PackageReference Include="Serilog" Version="3.1.1" />
+			<PackageReference Include="Serilog.Extensions.Logging.File" Version="3.0.0" />
+			<PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
 		</ItemGroup>
 	</Project>
 

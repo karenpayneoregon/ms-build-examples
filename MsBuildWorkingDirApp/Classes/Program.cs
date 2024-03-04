@@ -1,4 +1,5 @@
 ﻿using System.Runtime.CompilerServices;
+using MsBuildWorkingDirApp.Classes;
 using Spectre.Console;
 using SqlLiteLibrary.Data;
 using SqlLiteLibrary.Models;
@@ -14,6 +15,8 @@ partial class Program
     public static void Init()
     {
         Console.Title = "Code sample";
+
+        SetupLogging.Development();
 
         W.SetConsoleWindowPosition(W.AnchorWindow.Center);
 

@@ -1,4 +1,5 @@
 ﻿using HelperLibrary;
+using Serilog;
 using Spectre.Console;
 using SqlLiteLibrary.Data;
 
@@ -22,6 +23,8 @@ internal partial class Program
     /// </summary>
     private static void FileWriteSample()
     {
+        Log.Information("Running file demo");
+
         Helpers.PrintSampleName();
 
         AnsiConsole.MarkupLine($"[white]   Working folder:[/] [cyan]{Environment.CurrentDirectory}[/]");
@@ -29,7 +32,8 @@ internal partial class Program
 
         File.WriteAllText("test.txt", "hello");
 
-        AnsiConsole.MarkupLine($"  [white]test.txt exists?[/] [cyan]{File.Exists(Path.Combine(Environment.CurrentDirectory, "test.txt"))}[/]");
+        AnsiConsole.MarkupLine($"         [white]test.txt exists?[/] [cyan]{File.Exists(Path.Combine(Environment.CurrentDirectory, "test.txt"))}[/]");
+        AnsiConsole.MarkupLine($"  [white]LogFiles folder exists?[/] [cyan]{Directory.Exists(Path.Combine(Environment.CurrentDirectory,"LogFiles"))}[/]");
 
         Console.WriteLine();
     }
@@ -39,6 +43,7 @@ internal partial class Program
     /// </summary>
     private static void EntityFrameworkCoreSample()
     {
+        Log.Information("Running EF Core demo");
 
         Helpers.PrintSampleName();
 

@@ -1,5 +1,8 @@
 ﻿# How to set application working folder in project file
 
+> **Note**
+> 03/2024 added SeriLog and updated framework to NET8
+
 Many applications use their executable folder for creating and accessing various forms of files while an alternative is to use a folder devoid of the folder where the executable resides or any sub folder, this project show how to create a working folder using MS-Build task.
 
 - First decide on the folder to perform work e.g. read/write to files or open a database
