@@ -8,12 +8,12 @@
 	</PropertyGroup>
 
 	<Target Name="PreBuild" BeforeTargets="PreBuildEvent">
-		<Exec Command="echo This is $(Configuration) configuration"  />
+		<Exec Command="echo This is $(Configuration) configuration" />
 	</Target>
 
 	<Target Name="MakeLogDir" AfterTargets="Build">
-		<MakeDir Directories="$(OutDir)LogFiles\$([System.DateTime]::Now.ToString(yyyy-MM-dd))"
-				 Condition="'$(Configuration)' == 'Debug'"  />
+		<MakeDir Directories="$(OutDir)LogFiles\$([System.DateTime]::Now.ToString(yyyy-MM-dd))" Condition="'$(Configuration)' == 'Debug'" />
 	</Target>
+
 
 </Project>
