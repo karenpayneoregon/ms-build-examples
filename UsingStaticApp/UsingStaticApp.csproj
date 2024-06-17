@@ -8,6 +8,14 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+	  <None Remove="readme.md" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Content Include="readme.md" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<ProjectReference Include="..\UsingLibrary\UsingLibrary.csproj" />
 	</ItemGroup>
 
@@ -20,7 +28,7 @@
 		<Using Include="System.Console" Static="True" />
 		<Using Include="Spectre.Console.AnsiConsole" Alias="Console" />
 		<Using Include="UsingLibrary.Helpers" Static="True" />
-		<Using Include="System.DateTime" Static="True"/>
+		<Using Include="System.DateTime" Static="True" />
 	</ItemGroup>
 
 </Project>
